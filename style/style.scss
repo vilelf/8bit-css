@@ -1,3 +1,8 @@
+@import "title.scss";
+@import "python.scss";
+@import "donkeykong.scss";
+
+
 $pixel-color-map: (
   'w': #fff,
   'o': transparent,
@@ -15,57 +20,9 @@ $pixel-color-map: (
 $pixel-size: 10px !default;
 
 $pixel-art:(
-  title: (
-    ( o l l o o o o l l o o l o l l l o o l l l o l l l o l l l )
-    ( l o o l o o o l o l o l o o l o o o l o o o l o o o l o o )
-    ( o l l o o l o l l o o l o o l o o o l o o o l l l o l l l )
-    ( l o o l o o o l o l o l o o l o o o l o o o o o l o o o l )
-    ( o l l o o o o l l o o l o o l o o o l l l o l l l o l l l )
-  ),
-
-  python: (
-    (o o o o o o o b b b b b b o o o o o o o)
-    (o o o o o o b b b b b b b b o o o o o o)
-    (o o o o o o b w b b b b b b o o o o o o)
-    (o o o o o o b b b b b b b b o o o o o o)
-    (o o o o o o b b b b b b b b o o o o o o)
-    (o o o o o o o o o o b b b b o o o o o o)
-    (o b b b b b b b b b b b b b y y y y y o)
-    (b b b b b b b b b b b b b b y y y y y y)
-    (b b b b b b b b b b b b b b y y y y y y)
-    (b b b b b b b b b b b b b y y y y y y y)
-    (b b b b b b b y y y y y y y y y y y y y)
-    (b b b b b b y y y y y y y y y y y y y y)
-    (b b b b b b y y y y y y y y y y y y y y)
-    (o b b b b b y y y y y y y y y y y y y o)
-    (o o o o o o y y y y o o o o o o o o o o)
-    (o o o o o o y y y y y y y y o o o o o o)
-    (o o o o o o y y y y y y y y o o o o o o)
-    (o o o o o o y y y y y y w y o o o o o o)
-    (o o o o o o y y y y y y y y o o o o o o)
-    (o o o o o o o y y y y y y o o o o o o o)
-  ),
-
-  donkeykong: (
-    (o o o o o o o o o o m m m m o o o o)
-    (o o o o o o o o o m m m m o o o o o)
-    (o o o o o o o o m m m m m m m o o o)
-    (o o o o o m m r m m m m m s s s o o)
-    (o o o o m m m r m m s s m g l o o o)
-    (o o o o m m m r m m s s m w l o o o)
-    (o o o m m m m m r m m s s s s m s o)
-    (o o o m m m m m m r s s s s s s s s)
-    (o o m m m m m m m r s s l s s s s s)
-    (o o m m m m m m m m r s s l l l l o)
-    (o o m m m m e m m m m s s s s s s o)
-    (o m m m m m e m m m s r s s s s o o)
-    (o m m m m e e m m m s r r m m o o o)
-    (o m m m m m s m m m s s r r m m o o)
-    (o o m m m m o m m m m o r r m m o o)
-    (o m m m m o o o s m m o o r r m m o)
-    (o s s s s s o s s s s o o r r s s o)
-  )
-
+  title: $title,
+  python: $python,
+  donkeykong: $donkeykong
 );
 
 // Function to read the matrix and pixelize it!
