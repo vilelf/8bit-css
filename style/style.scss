@@ -3,7 +3,13 @@ $pixel-color-map: (
   'o': transparent,
   'b': #06f,
   'y': #ff0,
-  'l': #000 
+  'l': #000,
+  'r': #d00,
+  'g': #999,
+  'm': #68271f,
+  's': #f7ad84,
+  'e': #2d2320
+
 );
 
 $pixel-size: 10px !default;
@@ -39,6 +45,26 @@ $pixel-art:(
     (o o o o o o y y y y y y y y o o o o o o)
     (o o o o o o o y y y y y y o o o o o o o)
   ),
+
+  donkeykong: (
+    (o o o o o o o o o o m m m m o o o o)
+    (o o o o o o o o o m m m m o o o o o)
+    (o o o o o o o o m m m m m m m o o o)
+    (o o o o o m m r m m m m m s s s o o)
+    (o o o o m m m r m m s s m g l o o o)
+    (o o o o m m m r m m s s m w l o o o)
+    (o o o m m m m m r m m s s s s m s o)
+    (o o o m m m m m m r s s s s s s s s)
+    (o o m m m m m m m r s s l s s s s s)
+    (o o m m m m m m m m r s s l l l l o)
+    (o o m m m m e m m m m s s s s s s o)
+    (o m m m m m e m m m s r s s s s o o)
+    (o m m m m e e m m m s r r m m o o o)
+    (o m m m m m s m m m s s r r m m o o)
+    (o o m m m m o m m m m o r r m m o o)
+    (o m m m m o o o s m m o o r r m m o)
+    (o s s s s s o s s s s o o r r s s o)
+  )
 
 );
 
